@@ -360,7 +360,7 @@ public sealed partial class CommandBuffer : IDisposable
                 }
                 else
                 {
-                    world.OnComponentSet(entity, sparseArray.Type);
+                    world.OnComponentSet(entity, sparseArray.Components[id]);
                 }
 #endif
             }
